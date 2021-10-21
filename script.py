@@ -6,7 +6,7 @@ connection = sqlite3.connect("test.db")
 Cursor = connection.cursor()
 
 table1 = """CREATE TABLE IF NOT EXISTS
-Movies(movie_name TEXT,Actor_name Text ,actress_name TEXT ,Director_Name TEXT ,Year_of_release INTEGER); """
+Movies(movie_name TEXT,Actor_name Text ,actress_name TEXT ,Director_Name TEXT ,Year_of_release INTEGER) """
 
 Cursor.execute(table1)
 
